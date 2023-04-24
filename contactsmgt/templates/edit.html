@@ -1,0 +1,10 @@
+{%extends 'layout.html' %}
+{% block  content%}
+<h1>Edit Contact</h1>
+<form action="/edit/{{editcontact.id }}" method="post">
+  <input type="hidden" name="id" value="{{ editcontact.id }}">
+  <input type="text" name="name" placeholder="Title" value="{{editcontact.name}}">
+  <input type="number" name="contact" placeholder="{{ editcontact.num }}">
+  <button type="submit">Save</button>
+</form>
+{% endblock  %}

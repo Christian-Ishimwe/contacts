@@ -1,0 +1,67 @@
+#header{
+    background-color: black;
+    padding: 0.5% 4%;
+    color: white;
+    font-size: 1.3rem;
+}
+#header a{
+    color: white;
+    line-height: 1.5;
+}
+#header a:hover{
+    color: rgba(255, 255, 255, 0.8);
+}
+#header ul{
+    margin: auto;
+}
+#footer{
+    position: fixed;
+    bottom: 1px;
+    left: 50%;
+    
+}
+#intro{
+    text-align: center;
+    border: 1px solid black;
+    padding: 3% 10%;
+    margin: 2% ;
+    border-radius: 10px;
+}
+#intro a{
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+#intro p{
+    font-size: 1.5rem;
+}
+
+#form{
+    border: 1px solid black;
+    padding: 1% 5%;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 40px;
+    font-size: 1.2rem;
+}
+
+#table{
+    margin: 4% auto;
+}
+#alert{
+    width: 50%;
+    font-size: 16px;
+    padding: 3px;
+    margin: 4px auto;
+
+}
+form button{
+    width: 15%;
+    margin: 20px auto;
+}
+table a{
+    margin:1px 10px;
+    width: 30%;
+}
+table .table-active{
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+{%block content%}
+    <div>
+        <table class="table table-bordered table-hover  table-responsive">
+            <tr class="table-active"><td class="col">Name</td><td class="col">Number</td><tr>
+            {%  for i in Allcontacts %}
+                {%if i['username']==serched.data%}
+                    <tr class="col"><td class=".px-2">{{i['username']}}</td><td class="col">{{i['contacts']}}</td></tr>
+                    {%endif%}
+                {%else%}
+                    </tr><td>No contact found</td></tr>
+            {%endfor%}
+        </table>
+    </div>
+{%endblock%}

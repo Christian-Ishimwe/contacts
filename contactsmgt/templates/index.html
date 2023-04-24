@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+{%block content%}
+    <div class="container" id="intro">
+        <h2>Phone Management system</h2>
+        <p>
+            Welcome to my phonebook management system, Add, delete and store your contacts safely
+        </p>
+        <a class="btn btn-dark" href="{{url_for('add')}}">Add Contact</a>
+        <a class="btn btn-outline-dark" href="{{url_for('all')}}">View Contacts</a>
+    </div>
+{%endblock%}
